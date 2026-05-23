@@ -1,12 +1,21 @@
 {
-  "rules": [
+  "version": 3,
+  "enabled": true,
+  "contacts": [
     {
-      "id": 1,
-      "enabled": true,
-      "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"],
-      "startTime": "09:00",
-      "endTime": "18:00",
-      "action": "SILENT"
+      "number": "+919999999999",
+      "name": "Private Contact",
+      "rules": [
+        {
+          "days": ["MON", "TUE", "WED"],
+          "start": "09:00",
+          "end": "11:00",
+          "gsmIncoming": true,
+          "gsmOutgoing": false,
+          "whatsappIncoming": true,
+          "whatsappOutgoing": false
+        }
+      ]
     }
   ]
 }
