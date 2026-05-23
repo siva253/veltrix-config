@@ -1,0 +1,12 @@
+{
+  "rules": [
+    {
+      "id": 1,
+      "enabled": true,
+      "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"],
+      "startTime": "09:00",
+      "endTime": "18:00",
+      "action": "SILENT"
+    }
+  ]
+}
